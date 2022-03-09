@@ -1,3 +1,9 @@
+.Dictionary {
+  max-width: 960px;
+  display: block;
+  margin: 0 auto;
+}
+
 .Dictionary h1 {
   font-size: 18px;
   font-weight: bold;
