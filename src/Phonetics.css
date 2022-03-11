@@ -2,7 +2,7 @@
   margin: 20px 0;
 }
 
-.Phonetics a {
+.Phonetics .Audio-button {
   border: 1px solid #ddd;
   text-decoration: none;
   padding: 10px 20px;
@@ -13,7 +13,7 @@
   font-weight: bold;
 }
 
-.Phonetics a:hover {
+.Phonetics .Audio-button:hover {
   background-color: #9670f4;
   color: white;
 }
