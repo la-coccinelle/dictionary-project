@@ -7,17 +7,25 @@ export default function App() {
       <div className="container">
         <h1 className="App-header">Dictionary</h1>
         <main>
-          <Dictionary defaultKeyword="sunset" />
+          <Dictionary defaultKeyword="book" />
         </main>
         <footer className="App-footer">
           <small>
-            Coded by Monika and{" "}
+            This project was coded by Monika Grzegorczyk, is{" "}
             <a
               href="https://github.com/la-coccinelle/dictionary-project"
               target="_blank"
               rel="noopener noreferrer"
             >
               open-sourced on GitHub
+            </a>{" "}
+            and{" "}
+            <a
+              href="https://pensive-ardinghelli-2979b9.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              hosted on Netlify.
             </a>
           </small>
         </footer>

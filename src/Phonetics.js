@@ -1,7 +1,7 @@
 import React from "react";
 import "./Phonetics.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCirclePlay } from "@fortawesome/free-solid-svg-icons";
+import { faVolumeUp } from "@fortawesome/free-solid-svg-icons";
 
 export default function Phonetics(props) {
   let audioElement = new Audio(props.phonetic.audio);
@@ -13,7 +13,7 @@ export default function Phonetics(props) {
     <div className="Phonetics">
       <FontAwesomeIcon
         className="Audio-button fa-2xl"
-        icon={faCirclePlay}
+        icon={faVolumeUp}
         onClick={handleClick}
       />
       <span className="text">{props.phonetic.text}</span>
