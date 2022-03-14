@@ -3,19 +3,12 @@
 }
 
 .Phonetics .Audio-button {
-  border: 1px solid #ddd;
-  text-decoration: none;
-  padding: 10px 20px;
-  border-radius: 20px;
   margin-right: 10px;
   transition: all 150ms ease-in-out;
-  font-size: 12px;
-  font-weight: bold;
 }
 
 .Phonetics .Audio-button:hover {
-  background-color: #9670f4;
-  color: white;
+  color: #9670f4;
 }
 
 .Phonetics .text {
