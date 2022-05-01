@@ -2,12 +2,35 @@ import "./App.css";
 import Dictionary from "./Dictionary";
 
 export default function App() {
+  const keywordsArray = [
+    "book",
+    "cat",
+    "countryside",
+    "egg",
+    "forest",
+    "fruit",
+    "happiness",
+    "house",
+    "lily",
+    "red",
+    "smile",
+    "sunrise",
+    "sunset",
+    "tree",
+    "yellow",
+    "yoga",
+    "zoo",
+  ];
+
+  const randomKeyword =
+    keywordsArray[Math.floor(Math.random() * keywordsArray.length)];
+
   return (
     <div className="App">
       <div className="container">
         <h1 className="App-header">Dictionary</h1>
         <main>
-          <Dictionary defaultKeyword="book" />
+          <Dictionary defaultKeyword={randomKeyword} />
         </main>
         <footer className="App-footer">
           <small>
